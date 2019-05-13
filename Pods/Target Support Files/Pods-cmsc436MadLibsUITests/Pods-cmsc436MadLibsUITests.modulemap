@@ -1,0 +1,6 @@
+framework module Pods_cmsc436MadLibsUITests {
+  umbrella header "Pods-cmsc436MadLibsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
