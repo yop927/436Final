@@ -35,6 +35,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.layer.backgroundColor = myColor.cgColor
         //let root = Database.database().reference()
         
+        var swipeDown = UISwipeGestureRecognizer(target: self.view, action: Selector("endEditing:"))
+        swipeDown.direction = UISwipeGestureRecognizer.Direction.down
+        self.view.addGestureRecognizer(swipeDown)
+        
+        
         if Auth.auth().currentUser == nil {
             let alert = UIAlertController(title: "Sign In", message: "You must be signed in to save", preferredStyle: .alert)
             let ok = UIAlertAction(title: "OK", style: .default, handler: nil)

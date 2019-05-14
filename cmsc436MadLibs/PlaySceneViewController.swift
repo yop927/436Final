@@ -39,6 +39,10 @@ class PlaySceneViewController: UIViewController {
             txtField.tintColor = UIColor.gray
             yValue = yValue + 50
             self.view.addSubview(txtField)
+            
+            var swipeDown = UISwipeGestureRecognizer(target: self.view, action: Selector("endEditing:"))
+            swipeDown.direction = UISwipeGestureRecognizer.Direction.down
+            self.view.addGestureRecognizer(swipeDown)
         }
         
  

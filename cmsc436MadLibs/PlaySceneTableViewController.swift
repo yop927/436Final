@@ -28,6 +28,10 @@ class PlaySceneTableViewController: UITableViewController {
             alert.addAction(ok)
             present(alert,animated: true)
         }
+        
+        var swipeDown = UISwipeGestureRecognizer(target: self, action: Selector("endEditing:"))
+        swipeDown.direction = UISwipeGestureRecognizer.Direction.down
+        self.view.addGestureRecognizer(swipeDown)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
