@@ -34,6 +34,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
         textField.layer.backgroundColor = myColor.cgColor
         //let root = Database.database().reference()
+        
+        if Auth.auth().currentUser == nil {
+            let alert = UIAlertController(title: "Sign In", message: "You must be signed in to save", preferredStyle: .alert)
+            let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(ok)
+            present(alert,animated: true)
+        }
 
     }
   

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+
 
 class ReadSceneViewController: UIViewController {
     
@@ -45,7 +47,7 @@ class ReadSceneViewController: UIViewController {
                 count = count + 1
             }
         }
-        
+    
         // Do any additional setup after loading the view.
         ContentOutlet.text = finalString
  

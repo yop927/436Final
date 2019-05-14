@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+
 class PlaySceneViewController: UIViewController {
     var root = Database.database().reference()
     var storyTitle : String!
@@ -39,6 +40,7 @@ class PlaySceneViewController: UIViewController {
             yValue = yValue + 50
             self.view.addSubview(txtField)
         }
+        
  
     }
 

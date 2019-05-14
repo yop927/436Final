@@ -153,8 +153,8 @@
                                 <color key="textColor" red="0.43529411764705883" green="0.31764705882352939" blue="0.18823529411764706" alpha="0.85577134683098588" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="14I-L7-qGF">
-                                <rect key="frame" x="98" y="307" width="218" height="454"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="14I-L7-qGF">
+                                <rect key="frame" x="98" y="307" width="218" height="492.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igw-G7-mDZ">
@@ -169,7 +169,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhq-8y-7VD">
-                                        <rect key="frame" x="0.0" y="134" width="218" height="52"/>
+                                        <rect key="frame" x="0.0" y="116" width="218" height="52"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                         <state key="normal" title="Fill Out">
                                             <color key="titleColor" red="0.44313725490196076" green="0.40000000000000002" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -180,7 +180,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMi-Wj-DaT">
-                                        <rect key="frame" x="0.0" y="269" width="218" height="51"/>
+                                        <rect key="frame" x="0.0" y="233" width="218" height="51"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="24"/>
                                         <state key="normal" title="Read">
                                             <color key="titleColor" red="0.44313725490196076" green="0.40000000000000002" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -190,8 +190,14 @@
                                             <segue destination="jhE-gN-mM6" kind="show" id="CK5-JX-qd3"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please log in to play!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jc-vf-uCN">
+                                        <rect key="frame" x="0.0" y="349" width="218" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22z-7x-6Ol">
-                                        <rect key="frame" x="0.0" y="403" width="218" height="51"/>
+                                        <rect key="frame" x="0.0" y="441.5" width="218" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24y-RA-i4W">
                                                 <rect key="frame" x="0.0" y="0.0" width="146" height="51"/>

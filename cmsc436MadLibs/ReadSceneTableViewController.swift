@@ -20,6 +20,13 @@ class ReadSceneTableViewController: UITableViewController {
         self.tableView.dataSource = self
         self.tableView.backgroundColor = UIColor(red: 137/255, green: 162/255, blue: 162/255, alpha: 1)
         self.view.backgroundColor = UIColor(red: 137/255, green: 162/255, blue: 162/255, alpha: 1)
+        
+        if Auth.auth().currentUser == nil {
+            let alert = UIAlertController(title: "Sign In", message: "You must be signed in", preferredStyle: .alert)
+            let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(ok)
+            present(alert,animated: true)
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
