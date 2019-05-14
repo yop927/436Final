@@ -102,7 +102,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let separator = "\\{(.*?)\\}"
         var regResult = matchesForRegexInText(regex: regex, text: text)
         let result = text?.split(usingRegex: separator)
-        let alert = UIAlertController(title: "Save?", message: "Save game and exit?", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Save", message: "Save game and exit?", preferredStyle: .alert)
         let ok = UIAlertAction(title: "Yes", style: .default, handler: {(action) in
             var title = ""
             if alert.textFields?[0].text == "" {

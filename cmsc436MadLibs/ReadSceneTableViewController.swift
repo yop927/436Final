@@ -12,7 +12,7 @@ import Firebase
 class ReadSceneTableViewController: UITableViewController {
     let root = Database.database().reference()
     
-    var games : [CompletedGame] = [CompletedGame(title: "base", text: "don't fail", regVal: "VERB", resultString : "result")]
+    var games : [CompletedGame] = [] //= [CompletedGame(title: "base", text: "don't fail", regVal: "VERB", resultString : "result")]
     override func viewDidLoad() {
         startObserving()
         super.viewDidLoad()

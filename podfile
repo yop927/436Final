@@ -9,6 +9,8 @@ target 'cmsc436MadLibs' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
+  pod 'FirebaseUI'  
+
 
   target 'cmsc436MadLibsTests' do
     inherit! :search_paths

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:cmsc436MadLibs/GoogleService-Info.plist">
+   </FileRef>
+   <FileRef
       location = "group:cmsc436MadLibs.xcodeproj">
    </FileRef>
    <FileRef
